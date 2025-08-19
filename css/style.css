@@ -327,7 +327,7 @@ form button{
 @media (max-width: 768px) {
     .contenedorLogo {
         margin: 0;
-        justify-content: center;
+        width: 70%;
     }
     .logo {
         font-size: 1.5rem;
