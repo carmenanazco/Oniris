@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Disfruta del mas completo e-book - Astrología y Tarot - Oniris">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Producto - Oniris</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="logo" href="../index.html">
+                <img src="../img/Logo.png" class="d-inline-block align-text-center logo">
+                    Oniris
+            </a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <a href="../index.html#ebooks" class="btn btn-custom mt-3">
+            <i class="bi bi-arrow-left-circle"></i>
+            Volver a la tienda
+        </a>
+    </div>
+
+    <!-- Detalle del producto -->
+    <section class="container py-5">
+        <div class="row align-items-center" id="producto-detalle">
+            <!-- Se rellena con JS -->
+        </div>
+    </section>
+
+    <script>
+    // Datos de productos
+    const productos = {
+        tarot: {
+            nombre: "Guía Básica del Tarot",
+            descripcion: "Un ebook ilustrado que te introduce en los Arcanos Mayores y Menores con ejemplos prácticos.",
+            precio: "15 USD",
+            imagen: "../img/ebookTarot.png",
+            hotmart: "https://pay.hotmart.com/TU-LINK-HOTMART-TAROT",
+            beneficios: [
+            "✅ 120 páginas ilustradas",
+            "✅ Ejercicios de práctica",
+            "✅ Bonus: meditación guiada"
+            ]
+        },
+        astrologia: {
+            nombre: "Curso Introductorio de Astrología",
+            descripcion: "Aprende a interpretar tu carta natal con ejemplos claros y ejercicios prácticos.",
+            precio: "35 USD",
+            imagen: "../img/ebookAstrologia.png",
+            hotmart: "https://pay.hotmart.com/TU-LINK-HOTMART-ASTROLOGIA",
+            beneficios: [
+            "✅ 120 páginas ilustradas",
+            "✅ Acceso de por vida",
+            "✅ Material descargable"
+            ]
+        }
+    };
+
+    // Obtener ID del producto desde la URL
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get("id");
+
+    // Obtener contenedor
+    const contenedor = document.getElementById("producto-detalle");
+
+    if (productos[id]) {
+        const p = productos[id];
+        contenedor.innerHTML = `
+            <div class="col-md-6">
+            <img src="${p.imagen}" class="img-fluid rounded shadow" alt="${p.nombre}">
+            </div>
+            <div class="col-md-6">
+            <h1 class="mb-3">${p.nombre}</h1>
+            <p class="lead">${p.descripcion}</p>
+            <ul>${p.beneficios.map(b => `<li>${b}</li>`).join("")}</ul>
+            <p class="fw-bold fs-4">$${p.precio}</p>
+            <a href="${p.hotmart}" target="_blank" class="btn btn-acento btn-lg">
+                Comprar en Hotmart
+            </a>
+            <p class="small mt-2">Pago seguro con Hotmart</p>
+            </div>
+        `;
+        } else {
+        contenedor.innerHTML = `<div class="col-12 text-center"><h2>Producto no encontrado</h2></div>`;
+        }
+    </script>
+</body>
+</html>

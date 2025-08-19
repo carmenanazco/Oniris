@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "titulo": "Introducción al Tarot: Guía para Principiantes",
+    "resumen": "Descubre los primeros pasos para leer las cartas y conectar con tu intuición.",
+    "introduccion": "El tarot es una herramienta poderosa para la introspección y la conexión espiritual. En este artículo, exploraremos los conceptos básicos del tarot y cómo puedes comenzar tu viaje.",
+    "subtitulo": "🃏 ¿Qué es el Tarot?",
+    "contenido": "El tarot es una herramienta ancestral que se utiliza para la introspección y la conexión espiritual. Aprender a leer las cartas requiere práctica, paciencia y apertura mental...",
+    "subtitulo2": "✨ Cómo empezar con el Tarot",
+    "contenido2": "Para comenzar con el tarot, es importante elegir una baraja que resuene contigo. Familiarízate con los Arcanos Mayores y Menores, y practica tiradas simples para desarrollar tu intuición. Recuerda que cada carta tiene múltiples significados y su interpretación puede variar según el contexto de la consulta.",
+    "mensaje": "“El tarot es un espejo del alma, refleja lo que llevamos dentro.”",
+    "consejos": [
+      "Dedica tiempo a meditar con cada carta.",
+      "Lleva un diario de tarot para registrar tus lecturas y reflexiones.",
+      "Practica con amigos o familiares para ganar confianza."
+    ],
+    "imagen": "https://picsum.photos/seed/tarot1/400/250",
+    "fecha": "10 de agosto, 2025"
+  },
+  {
+    "id": 2,
+    "titulo": "Los 12 Signos del Zodiaco y su Energía",
+    "resumen": "Cada signo tiene su propia vibración. Conoce cómo influye en tu vida.",
+    "introduccion": "La astrología nos enseña que cada signo zodiacal tiene una energía única que influye en nuestra personalidad y en nuestras relaciones. Conocer estas energías nos ayuda a comprender mejor nuestro entorno.",
+    "subtitulo": "🌌 Signos de Fuego, Tierra, Aire y Agua",
+    "contenido": "Los signos zodiacales representan distintas formas de energía. Aries abre el ciclo con su fuerza de fuego, mientras que Piscis lo cierra con la sabiduría de la sensibilidad...",
+    "subtitulo2": "✨ Cómo trabajar con tu signo",
+    "contenido2": "Para aprovechar al máximo la energía de tu signo, puedes realizar rituales específicos, meditar con cristales asociados o simplemente reflexionar sobre las características de tu signo. Cada signo tiene sus fortalezas y desafíos, y conocerlos te ayudará a navegar por la vida con mayor claridad.",
+    "mensaje": "“Los astros nos guían, pero somos nosotros quienes trazamos nuestro destino.”",
+    "consejos": [
+      "Investiga las características de tu signo zodiacal.",
+      "Realiza rituales durante tu mes de cumpleaños para potenciar tu energía.",
+      "Utiliza cristales asociados a tu signo para equilibrar tus energías."
+    ],  
+    "imagen": "https://picsum.photos/seed/zodiaco/400/250",
+    "fecha": "10 de agosto, 2025"
+
+  },
+  {
+    "id": 3,
+    "titulo": "Numerología Básica: Descubre tu Número de Vida",
+    "resumen": "Calcula tu número personal y entiende qué revela sobre ti.",
+    "introduccion": "La numerología es el estudio de los números y su significado espiritual. Cada número tiene una vibración única que influye en nuestra vida y personalidad.",
+    "subtitulo": "🔢 ¿Qué es el número de vida?",
+    "contenido": "La numerología estudia la relación mística entre los números y la vida. El número de vida se calcula sumando tu fecha de nacimiento hasta reducirla a un solo dígito...",
+    "subtitulo2": "✨ Cómo calcular tu número de vida",
+    "contenido2": "Para calcular tu número de vida, suma los dígitos de tu fecha de nacimiento. Por ejemplo, si naciste el 15 de marzo de 1990, sumas 1+5+0+3+1+9+9+0 = 28, luego 2+8 = 10, y finalmente 1+0 = 1. Tu número de vida es 1.",
+    "mensaje": "“Los números son la clave del universo.”",    
+    "consejos": [
+      "Investiga el significado de tu número de vida.",
+      "Utiliza tu número para guiar tus decisiones y reflexiones.",
+      "Practica la meditación con tu número para conectar con su energía."
+    ],    
+    "imagen": "https://picsum.photos/seed/numerologia/400/250",
+    "fecha": "12 de agosto, 2025"
+  },
+  {
+    "id": 4,
+    "titulo": "Luna Llena y Rituales de Liberación",
+    "resumen": "Aprovecha la energía de la luna llena para cerrar ciclos.",
+    "introduccion": "La luna llena es un momento poderoso para la sanación y la liberación. Es ideal para soltar lo que ya no nos sirve y abrir espacio para nuevas oportunidades.",
+    "subtitulo": "🌕 Ritual de Luna Llena",
+    "contenido": "La luna llena es un momento poderoso para soltar lo que ya no necesitamos. Los rituales de liberación con velas, escritos y meditación ayudan a sanar y avanzar...",
+    "subtitulo2": "🌌 Cómo realizar un ritual",
+    "contenido2": "Para realizar un ritual de luna llena, prepara un espacio tranquilo, escribe lo que deseas soltar en un papel y quémalo con una vela. Visualiza la energía de la luna llenando tu ser con luz y renovación.",
+    "mensaje": "“La luna llena es un espejo que refleja nuestras emociones más profundas.”",
+    "consejos": [
+      "Realiza el ritual en un lugar tranquilo y sin distracciones.",
+      "Utiliza velas blancas o plateadas para potenciar la energía lunar.",
+      "Dedica unos minutos a meditar y conectar con tus intenciones."
+    ],  
+    "imagen": "https://picsum.photos/seed/luna/400/250",
+    "fecha": "15 de agosto, 2025"
+  },
+  {
+    "id": 5,
+    "titulo": "Cristales para la Protección Energética",
+    "resumen": "Descubre qué piedras pueden ayudarte a mantener tu aura limpia.",
+    "introduccion": "Los cristales son herramientas poderosas para la sanación y la protección energética. Cada piedra tiene propiedades únicas que pueden ayudarnos a equilibrar y fortalecer nuestro campo energético.",
+    "subtitulo": "💎 Cristales para la protección",
+    "contenido": "Los cristales han sido usados desde tiempos antiguos como herramientas de sanación. La amatista, la turmalina negra y el cuarzo transparente son aliados para proteger tu energía...",
+    "subtitulo2": "✨ Cómo usar los cristales",
+    "contenido2": "Para aprovechar al máximo las propiedades de los cristales, puedes llevarlos contigo, colocarlos en tu espacio personal o utilizarlos en meditación. Es importante limpiarlos regularmente para mantener su energía pura.",
+    "mensaje": "“Los cristales son como espejos de luz que reflejan nuestra energía interna.”",
+    "consejos": [
+      "Limpia tus cristales con agua y sal o con humo de salvia.",
+      "Coloca un cristal en tu espacio de trabajo para mantener la energía positiva.",
+      "Medita con un cristal en la mano para conectar con su vibración."
+    ],  
+    "imagen": "https://picsum.photos/seed/cristales/400/250",
+    "fecha": "16 de agosto, 2025"
+  },
+  {
+    "id": 6,
+    "titulo": "Arcano Mayor: El Mago",
+    "resumen": "El poder de manifestar está en tus manos.",
+    "introduccion": "El Mago es el primer arcano mayor del tarot y simboliza el poder de la manifestación. Representa la habilidad de transformar ideas en realidad a través de la voluntad y la acción.",
+    "subtitulo": "✨ El Mago y su simbolismo",  
+    "contenido": "El Mago simboliza la capacidad de crear tu propia realidad. Representa la iniciativa, la creatividad y el dominio de los elementos para materializar tus deseos...",
+    "subtitulo2": "🔮 Cómo trabajar con la energía del Mago",
+    "contenido2": "Para aprovechar la energía del Mago, es importante estar en sintonía con tus intenciones. Utiliza afirmaciones, visualizaciones y rituales de manifestación para canalizar su poder.",
+    "mensaje": "“El poder de crear está en ti. Usa tus herramientas sabiamente.”",
+    "consejos": [
+      "Practica la visualización creativa.",
+      "Utiliza herramientas como velas y cristales para potenciar tu energía.",
+      "Mantén un diario de manifestación para registrar tus intenciones y logros."
+    ],
+    "imagen": "https://picsum.photos/seed/mago/400/250",
+    "fecha": "17 de agosto, 2025"
+  },
+  {
+    "id": 7,
+    "titulo": "Astrología y Relaciones: Compatibilidades",
+    "resumen": "Cómo influye tu signo en tus vínculos afectivos.",
+    "introduccion": "La astrología nos ofrece una herramienta para entender mejor nuestras relaciones. Cada signo tiene características que influyen en cómo nos relacionamos con los demás.",
+    "subtitulo": "🌟 Compatibilidad entre signos",
+    "contenido": "La sinastría es una rama de la astrología que estudia la compatibilidad entre cartas natales. Nos ayuda a comprender las fortalezas y desafíos en las relaciones amorosas y amistosas...",
+    "subtitulo2": "💞 Cómo mejorar tus relaciones",
+    "contenido2": "Conocer las energías de tu signo y el de tu pareja puede ayudarte a mejorar la comunicación y fortalecer el vínculo. La empatía y el respeto son claves para una relación armoniosa.",
+    "mensaje": "“Las estrellas nos guían, pero somos nosotros quienes elegimos nuestro camino.”",
+    "consejos": [
+      "Explora la carta natal de tu pareja.",
+      "Practica la empatía y la escucha activa.",
+      "Utiliza rituales astrológicos para fortalecer la conexión."
+    ],
+    "imagen": "https://picsum.photos/seed/relaciones/400/250",
+    "fecha": "18 de agosto, 2025"
+  },
+  {
+    "id": 8,
+    "titulo": "Meditación con Cartas del Tarot",
+    "resumen": "Conecta con la energía de un arcano en tu práctica meditativa.",
+    "introduccion": "La meditación con el tarot es una práctica que permite profundizar en el significado de las cartas y su energía. Es una forma de autoconocimiento y conexión espiritual.",
+    "subtitulo": "🃏 Meditación con el Tarot",
+    "contenido": "Meditar con el tarot es una manera poderosa de profundizar en la energía de cada carta. Elige un arcano, observa su imagen y deja que te guíe hacia una reflexión profunda...",
+    "subtitulo2": "🌌 Cómo integrar el tarot en tu meditación",
+    "contenido2": "Puedes usar una carta específica como foco de meditación o realizar una tirada para explorar tu estado emocional actual. La clave es estar abierto a las intuiciones que surjan.",
+    "mensaje": "“El tarot es un espejo del alma.”", 
+    "consejos": [
+      "Elige un lugar tranquilo para meditar.",
+      "Dedica unos minutos a observar la carta elegida.",
+      "Permite que las imágenes y símbolos te hablen."
+    ],
+    "imagen": "https://picsum.photos/seed/meditacion/400/250",
+    "fecha": "18 de agosto, 2025"
+  },
+  {
+    "id": 9,
+    "titulo": "Los Planetas Retrógrados y su Influencia",
+    "resumen": "Mercurio retrógrado no es el único. Aprende a entenderlos.",
+    "introduccion": "Los planetas retrógrados son un fenómeno astrológico que ocurre cuando parecen moverse hacia atrás en el cielo. Esto afecta nuestras vidas de maneras sutiles pero significativas.",
+    "subtitulo": "🌌 ¿Qué significa un planeta retrógrado?",
+    "contenido": "Cuando un planeta entra en retrogradación, su energía se siente de forma diferente en la Tierra. Mercurio afecta la comunicación, Marte la acción y Venus el amor...",
+    "subtitulo2": "🌠 Cómo aprovechar la energía retrógrada",
+    "contenido2": "En lugar de temer a los planetas retrógrados, podemos aprender a fluir con su energía. Es un buen momento para la introspección, la revisión de proyectos y la resolución de conflictos.",
+    "mensaje": "“Los planetas retrógrados son oportunidades disfrazadas.”",
+    "consejos": [
+      "Revisa tus planes antes de iniciar nuevos proyectos.",
+      "Utiliza este tiempo para reflexionar y sanar viejas heridas.",
+      "Sé paciente y flexible ante los cambios inesperados."
+    ],  
+    "imagen": "https://picsum.photos/seed/retrogrado/400/250",
+    "fecha": "19 de agosto, 2025" 
+  },
+  {
+    "id": 10,
+    "titulo": "El Viaje del Loco: Camino Espiritual en el Tarot",
+    "resumen": "El Loco es el inicio de un viaje de autodescubrimiento.",
+    "introduccion": "El Loco, carta número 0 del tarot, simboliza el comienzo de un viaje espiritual. Representa la inocencia, la libertad y la posibilidad de nuevas experiencias.",
+    "subtitulo": "🌟 El Loco y su simbolismo",
+    "contenido": "El Loco, carta número 0 del tarot, representa la libertad, la inocencia y el comienzo de un viaje espiritual. Es una invitación a confiar en el universo y en uno mismo...",
+    "subtitulo2": "🌌 El viaje del Loco",
+    "contenido2": "El Loco nos anima a dar el primer paso sin miedo, a explorar lo desconocido y a aprender de cada experiencia. Es un recordatorio de que cada final es un nuevo comienzo.",
+    "mensaje": "“El viaje del Loco es el viaje de la vida misma.”",
+    "consejos": [
+      "Confía en tu intuición y sigue tu camino.",
+      "Acepta los cambios como oportunidades de crecimiento.",
+      "Mantén una mente abierta a nuevas experiencias."
+    ],
+    "imagen": "https://picsum.photos/seed/loco/400/250",
+    "fecha": "20 de agosto, 2025"
+  },
+  {
+    "id": 11,
+    "titulo": "Los secretos del Tarot y su conexión con la Luna",
+    "resumen": " Descubre cómo las fases lunares influyen en tus tiradas y energías espirituales.",
+    "introduccion":"El Tarot es más que un conjunto de cartas: es un lenguaje simbólico que conecta con nuestro inconsciente. En este artículo exploramos cómo las fases de la Luna influyen en las lecturas y en nuestra vida diaria.",
+    "subtitulo": "🌑 La Luna Nueva y los nuevos comienzos",
+    "contenido": "En esta fase, las cartas que aparecen suelen indicar inicios, oportunidades ocultas y momentos de sembrar intenciones.",
+    "subtitulo2":"🌕 La Luna Llena y la revelación",
+    "contenido2": "La energía de la Luna Llena ilumina lo que estaba oculto. Es un momento clave para trabajar con los Arcanos Mayores.",
+    "mensaje":"“El Tarot refleja el cielo interno de cada persona.”",
+    "consejos": [
+      "Haz tus lecturas en noches de Luna Llena.",
+      "Combina tu tirada con meditación lunar.",
+      "Lleva un diario de Tarot para registrar intuiciones."
+    ],
+    "imagen": "https://picsum.photos/1000/400?random=21",
+    "fecha": "20 de agosto, 2025"
+  }
+]
+

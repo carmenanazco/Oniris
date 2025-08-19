@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog - Astrología y Tarot - Oniris">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="../../img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="../../css/style.css">
+  <title>Artículo | Oniris</title>
+</head>
+<body>
+    <div class="container">
+        <a href="blogs.html" class="btn btn-custom mt-3">
+            <i class="bi bi-arrow-left-circle"></i>
+            Volver al blog
+        </a>
+  </div>
+
+<section class="blog-post container py-5 text-light">
+  <div class="container py-5">
+    <div id="encabezado"></div>
+  </div>
+
+  <article id="contenido" class="content mx-auto" style="max-width: 800px;"></article>
+  <blockquote id="mensaje" class="blockquote text-center my-4">
+      <p class="mb-0"></p>
+    </blockquote>
+  <h2>🔮 Consejos prácticos</h2>
+    <ul id="consejos">
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+</section>
+<Section>
+  <div class="text-center mt-5">
+      <a href="../../index.html#ebooks" class="btn btn-custom btn-lg">
+        👉 Descubre nuestros ebooks
+      </a>
+    </div>
+  <div class="text-center mt-5 share-buttons">
+    <p class="fw-bold">✨ Comparte este artículo:</p>
+    <a href="#" id="share-facebook" class="btn btn-sm btn-outline-light me-2" target="_blank">Facebook</a>
+    <a href="#" id="share-twitter" class="btn btn-sm btn-outline-light me-2" target="_blank">Twitter/X</a>
+    <a href="#" id="share-whatsapp" class="btn btn-sm btn-outline-light" target="_blank">WhatsApp</a>
+  </div>
+
+</Section>
+  <script>
+    // Recupera el ID guardado
+    const id = localStorage.getItem("postId");
+
+    // Cargar los posts desde el JSON
+    fetch("posts.json")
+      .then(res => res.json())
+      .then(posts => {
+        const post = posts.find(p => p.id == id);
+
+        if(post) {
+          document.getElementById("encabezado").innerHTML = `
+            <img src="${post.imagen}" class="img-fluid rounded shadow mb-3" alt="${post.titulo}">
+            <h1 class="mb-3 display-5 fw-bold">${post.titulo}</h1>
+            <p class="text-body-ligth">Por Oniris • ${post.fecha}</p>
+          `;
+
+          document.getElementById("contenido").innerHTML = `
+            <p class="text-body-ligth">${post.introduccion}</p>
+            <h2 class="mb-3 fw-bold">${post.subtitulo}</h2>
+            <div class="mb-3">${post.contenido}</div>
+            <h2 class="mb-3 fw-bold">${post.subtitulo2}</h2>
+            <div class="mb-3">${post.contenido2}</div>
+          `;
+          document.getElementById("mensaje").querySelector("p").textContent = post.mensaje;
+          const consejosList = document.getElementById("consejos");
+          consejosList.innerHTML = post.consejos.map(c => `<li>${c}</li>`).join("");
+        } else {
+          document.getElementById("postContent").innerHTML = "<p>Artículo no encontrado.</p>";
+        }
+      });
+
+
+      const postUrl = window.location.href;
+  const postTitle = document.title;
+
+  document.getElementById("share-facebook").href =
+    `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(postUrl)}`;
+
+  document.getElementById("share-twitter").href =
+    `https://twitter.com/intent/tweet?url=${encodeURIComponent(postUrl)}&text=${encodeURIComponent(postTitle)}`;
+
+  document.getElementById("share-whatsapp").href =
+    `https://api.whatsapp.com/send?text=${encodeURIComponent(postTitle + " " + postUrl)}`;
+  </script>
+</body>
+</html>

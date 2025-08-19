@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Astrología y Tarot - Descubre tu destino con Oniris. Aprende a leer tu carta natal, conecta con tu intuición a través del Tarot y aprovecha las energías lunares.">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Oniris - Astrología y Tarot</title>
+</head>
+<body>
+    <div class="floating-social">
+        <a href="https://wa.me/1132803790" target="_blank" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.instagram.com/carmen_anazco" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/carmen-añazco" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+    </div>
+    <button class="scroll-to-top" id="scrollToTopBtn" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" title="Volver arriba">
+        <i class="bi bi-chevron-double-up"></i>
+    </button>
+
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid nav">
+                <div class="contenedorLogo">
+                    <a class="logo" href="#">
+                    <img src="./img/Logo.png" class="d-inline-block align-text-center logo">
+                        Oniris
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse menuCollapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#ebooks">Ebooks</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>  
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="stars">
+        <!-- Estrellas random -->
+            <div class="star" style="width:3px; height:3px; top:20%; left:30%; animation-duration:2s;"></div>
+            <div class="star" style="width:4px; height:4px; top:50%; left:70%; animation-duration:3s;"></div>
+            <div class="star" style="width:2px; height:2px; top:80%; left:40%; animation-duration:1.5s;"></div>
+            <div class="star" style="width:5px; height:5px; top:10%; left:80%; animation-duration:2.5s;"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="display-4 fw-bold">Bienvenid@ a Oniris</h1>
+            <p class="lead">Un puente entre tu alma y el universo</p>
+            <a href="#blog" class="btn btn-acento mt-3">Descubre más</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-5 container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="fw-bold">Sobre Oniris</h2>
+                <p>Oniris nace de la unión de Onix e Iris, mis dos gatos mágicos 🐾. 
+                Este espacio está creado para guiarte a través del tarot y la astrología, 
+                ayudándote a encontrar claridad y conexión con el universo.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/sobreMi.png" class="imgSobreMi rounded-3 shadow" alt="Sobre mí">
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="py-5 container">
+        <h2 class="text-center mb-4 fw-bold">Servicios</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <img src="./img/carta-de-tarot.png" alt="carta de tarot" class="img-servicio align-self-center mb-3">
+                    <div class="card-body">
+                        <h5>Lectura de Tarot</h5>
+                        <p>Sesiones personalizadas para resolver tus dudas.</p>
+                        <a href="#contacto" class="btn btn-custom">Reservar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <img src="./img/luna.png" alt="carta natal" class="img-servicio align-self-center mb-3">
+                    <div class="card-body">
+                        <h5>Carta Natal</h5>
+                        <p>Interpretación completa de tu <br> mapa astral.</p>
+                        <a href="#contacto" class="btn btn-custom">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <img src="./img/adivinacion.png" alt="astrología" class="img-servicio align-self-center mb-3">
+                    <div class="card-body">
+                        <h5>Astrología Evolutiva</h5>
+                        <p>Conecta con tu propósito y energías.</p><br>
+                        <a href="#contacto" class="btn btn-custom">Explorar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG -->
+    <section id="blog" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Últimos Artículos</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-lg">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Qué significa Mercurio retrógrado?</h5>
+                            <p class="card-text">Entiende los mitos y realidades de este fenómeno astrológico y cómo aprovecharlo.</p>
+                            <a href="./pages/blog/blogs.html" class="btn btn-custom">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-lg">
+                        <div class="card-body">
+                            <h5 class="card-title">El Tarot como guía espiritual</h5>
+                            <p class="card-text">Conecta con tu intuición a través de las cartas.</p>
+                            <a href="./pages/blog/blogs.html" class="btn btn-custom">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-lg">
+                        <div class="card-body">
+                            <h5 class="card-title">Astrología y energías lunares</h5>
+                            <p class="card-text">Aprovecha la fuerza de cada fase de la Luna.</p>
+                            <a href="./pages/blog/blogs.html" class="btn btn-custom">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-5 container text-center card mt-5">
+            <h5 class="card-title">Encuentra estos y más articulos</h5>
+            <p class="card-text">Descubre todo lo que tenemos para vos</p>
+            <div class="d-flex justify-content-center mt-3">                            
+                <a href="./pages/blog/blogs.html" class="btn btn-custom">Ver más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Ebooks -->
+    <section class="container py-5" id="ebooks">
+        <h2 class="mb-4 text-center">Ebooks disponibles</h2>
+        <p>Aprende astrología y tarot con nuestras guías exclusivas.</p>
+        <div class="row g-4">
+            <!-- Producto Tarot -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <img src="./img/ebookTarot.png" class="card-img-top img-tienda" alt="Ebook Tarot">
+                    <div class="card-body">
+                        <h5 class="card-title">Guía Básica del Tarot</h5>
+                        <p class="card-text">Descubre los Arcanos Mayores y Menores en un ebook ilustrado.</p>
+                        <a href="./pages/producto.html?id=tarot" class="btn btn-acento w-100">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto Astrología -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <img src="./img/ebookAstrologia.png" class="card-img-top img-tienda" alt="Curso Astrología">
+                    <div class="card-body">
+                        <h5 class="card-title">Curso Introductorio de Astrología</h5>
+                        <p class="card-text">Aprende a leer tu carta natal paso a paso.</p><br>
+                        <a href="./pages/producto.html?id=astrologia" class="btn btn-acento w-100">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Newsletter -->
+    <section id="newsletter" class="py-5 container text-center bg-dark">
+        <h2>Únete a la comunidad</h2>
+        <p>Recibe predicciones y rituales mensuales en tu correo</p>
+        <form class="d-flex justify-content-center mt-3">
+            <input type="email" class="form-control w-50 me-2" placeholder="Tu correo">
+            <button class="btn btn-custom">Suscribirse</button>
+        </form>
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <p class="mb-4">¿Querés una lectura personalizada o más información? Escribime ✨</p>
+            <form id="contact-form" class="mx-auto" style="max-width: 600px;">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                    <div class="mb-3">
+                    <label for="email" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <div class="d-grid gap-2 col-3 mx-auto m-4">
+                    <button type="submit" class="btn btn-custom btn-lg">Enviar</button>
+                </div>
+            </form>      
+        </div>
+    </section>
+
+    <footer class=" text-center py-4">
+        <div class="container">
+            <p>© 2025 Todos los derechos reservados.</p>
+            <div class="social-buttons">
+                <a href="https://wa.me/1132803790" target="_blank" title="WhatsApp" class="text-white mx-2"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.instagram.com/carmen_anazco" target="_blank" title="Instagram" class="text-white mx-2"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/carmen-añazco" target="_blank" title="LinkedIn" class="text-white mx-2"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <small class="d-block mt-2">Oniris - Astrología & Tarot</small>
+        </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function() {
+        emailjs.init("PUBLIC_KEY_DE_EJEMPLO"); 
+        })();
+    </script>
+</body>
+</html>
+
