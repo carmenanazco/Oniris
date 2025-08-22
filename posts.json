@@ -15,7 +15,9 @@
       "Practica con amigos o familiares para ganar confianza."
     ],
     "imagen": "https://picsum.photos/seed/tarot1/400/250",
-    "fecha": "10 de agosto, 2025"
+    "fecha": "10 de agosto, 2025",
+    "keywords": "tarot, guía para principiantes, lectura de cartas",
+    "slug": "introduccion-al-tarot-guia-principiantes"
   },
   {
     "id": 2,
@@ -33,7 +35,9 @@
       "Utiliza cristales asociados a tu signo para equilibrar tus energías."
     ],  
     "imagen": "https://picsum.photos/seed/zodiaco/400/250",
-    "fecha": "10 de agosto, 2025"
+    "fecha": "10 de agosto, 2025",
+    "keywords": "astrología, signos zodiacales, energía zodiacal",
+    "slug": "signos-zodiaco-energia"
 
   },
   {
@@ -52,7 +56,9 @@
       "Practica la meditación con tu número para conectar con su energía."
     ],    
     "imagen": "https://picsum.photos/seed/numerologia/400/250",
-    "fecha": "12 de agosto, 2025"
+    "fecha": "12 de agosto, 2025",
+    "keywords": "numerología, número de vida, espiritualidad",
+    "slug": "numerologia-basica-numero-vida"
   },
   {
     "id": 4,
@@ -70,7 +76,9 @@
       "Dedica unos minutos a meditar y conectar con tus intenciones."
     ],  
     "imagen": "https://picsum.photos/seed/luna/400/250",
-    "fecha": "15 de agosto, 2025"
+    "fecha": "15 de agosto, 2025",
+    "keywords": "luna llena, rituales, liberación, sanación",
+    "slug": "luna-llena-rituales-liberacion"
   },
   {
     "id": 5,
@@ -88,7 +96,9 @@
       "Medita con un cristal en la mano para conectar con su vibración."
     ],  
     "imagen": "https://picsum.photos/seed/cristales/400/250",
-    "fecha": "16 de agosto, 2025"
+    "fecha": "16 de agosto, 2025",
+    "keywords": "cristales, protección energética, amatista, turmalina negra",
+    "slug": "cristales-proteccion-energetica"
   },
   {
     "id": 6,
@@ -106,7 +116,9 @@
       "Mantén un diario de manifestación para registrar tus intenciones y logros."
     ],
     "imagen": "https://picsum.photos/seed/mago/400/250",
-    "fecha": "17 de agosto, 2025"
+    "fecha": "17 de agosto, 2025",
+    "keywords": "tarot, arcano mayor, El Mago, manifestación",
+    "slug": "arcano-mayor-el-mago"
   },
   {
     "id": 7,
@@ -124,7 +136,9 @@
       "Utiliza rituales astrológicos para fortalecer la conexión."
     ],
     "imagen": "https://picsum.photos/seed/relaciones/400/250",
-    "fecha": "18 de agosto, 2025"
+    "fecha": "18 de agosto, 2025",
+    "keywords": "astrología, relaciones, compatibilidad",
+    "slug": "astrologia-y-relaciones-compatibilidades"
   },
   {
     "id": 8,
@@ -142,7 +156,9 @@
       "Permite que las imágenes y símbolos te hablen."
     ],
     "imagen": "https://picsum.photos/seed/meditacion/400/250",
-    "fecha": "18 de agosto, 2025"
+    "fecha": "18 de agosto, 2025",
+    "keywords": "tarot, meditación, autoconocimiento",
+    "slug": "meditacion-con-cartas-tarot"
   },
   {
     "id": 9,
@@ -160,7 +176,9 @@
       "Sé paciente y flexible ante los cambios inesperados."
     ],  
     "imagen": "https://picsum.photos/seed/retrogrado/400/250",
-    "fecha": "19 de agosto, 2025" 
+    "fecha": "19 de agosto, 2025",
+    "keywords": "astrología, planetas retrógrados, Mercurio retrógrado",
+    "slug": "planetas-retrogrados-influencia"
   },
   {
     "id": 10,
@@ -178,7 +196,9 @@
       "Mantén una mente abierta a nuevas experiencias."
     ],
     "imagen": "https://picsum.photos/seed/loco/400/250",
-    "fecha": "20 de agosto, 2025"
+    "fecha": "20 de agosto, 2025",
+    "keywords": "tarot, viaje del loco, autodescubrimiento",
+    "slug": "viaje-del-loco-tarot"
   },
   {
     "id": 11,
@@ -196,7 +216,9 @@
       "Lleva un diario de Tarot para registrar intuiciones."
     ],
     "imagen": "https://picsum.photos/1000/400?random=21",
-    "fecha": "20 de agosto, 2025"
+    "fecha": "20 de agosto, 2025",
+    "keywords": "rituales luna llena, astrología, manifestación",
+    "slug": "tarot-luna-conexion"
   }
 ]
 
