@@ -89,7 +89,7 @@ function createBlogHTML(posts) {
 <body>
 
   <div class="container">
-    <a href="../index.html" class="btn btn-custom mt-3">
+    <a href="./index.html" class="btn btn-custom mt-3">
       <i class="bi bi-arrow-left-circle"></i>
       Volver a Inicio
     </a>
