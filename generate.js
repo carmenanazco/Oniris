@@ -82,8 +82,8 @@ function createBlogHTML(posts) {
   <meta name="author" content="Oniris">
   <meta name="keywords" content="tarot, astrología, carta natal, casas astrológicas, tarot, significado de cartas, rituales de luna, Oniris">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Blog de Astrología y Tarot | Oniris</title>
 </head>
 <body>
